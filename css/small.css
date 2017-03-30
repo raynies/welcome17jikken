@@ -1,0 +1,66 @@
+/*ハンバーガーアイコン関係*/
+.humberger {
+    background: #73cff2;
+    height: 24px;
+
+    margin: 10px auto 10px 20px;   
+}
+
+.top, .middle, .bottom {
+    width: 32px;
+    height: 4px;
+    margin-right: auto;
+
+    background: white;
+    border-radius: 5px;
+}
+
+.middle {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.open_menu {
+    width:32px;
+    margin-right: auto;
+}
+
+.open_menu:hover {
+    cursor: pointer;
+}
+
+/*ここまでハンバーガー。この下はドロワーメニュー定義*/
+
+.drawr{
+    display: none;
+    position: fixed;
+    width:220px;
+    background: #73cff2;
+    z-index: 10001;
+    border-right:1px solid #17b0ea;
+}
+
+ul li {
+    display: inline-block;
+    width:200px;
+    height: 25px;
+    border-bottom: 1px solid #17b0ea;
+}
+
+.close_menu {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/*その他*/
+
+img {
+    width: 120%;
+}
+
+/*こっちの画面で使わないものを非表示設定*/
+
+.menu_large{
+    display: none;
+}

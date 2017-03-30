@@ -1,0 +1,21 @@
+.menu_small{
+    display: none;
+}
+
+.menu_name{
+    color: white;
+
+    border:solid white 3px;
+
+    padding:0px;
+    margin: 7px 7px 7px 17px;
+    float: left;
+    width:100px;
+}
+ul li{
+    display: table-cell;
+}
+
+img {
+    width: 60%;
+}

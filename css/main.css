@@ -1,0 +1,207 @@
+/*メニュー周り*/
+
+.main{
+    margin:auto;
+    width: 100%;
+    background-color: #73cff2;
+    border-top:1px solid #17b0ea; 
+    border-bottom:1px solid #17b0ea; 
+}
+
+.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+
+    margin: auto;
+    padding: 10px;
+}
+
+
+/*全体のデザイン*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+* {
+    text-align: center;
+}
+
+html {
+    background-color: #73cff2;
+}
+
+body {
+    background-color: #f8fcfb;
+    width: 100%;
+    margin:0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+/*header,footer*/
+
+header{
+    padding: 10% 20% 10% 20%;
+    margin: 0 auto;
+
+    background-color: #73cff2;
+    background-image: url("../img/landfall.JPG");
+    background-size: cover;
+
+    color: white;
+}
+
+
+footer{
+    height: 150px;
+    margin:0 auto;
+    background: #73cff2;
+    color: white;
+}
+
+#about,
+#event,
+#gallary,
+#access {
+    margin: 100px auto;
+    width: 60%;
+    color: #444;
+}
+
+
+/*about関係*/
+
+
+
+.about_cell{
+    display: inline-block;
+
+    background: #ceffce;
+    border-radius: 6px;
+
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #ceffce;
+
+    width: 160px;
+    height: 200px;
+    padding:0px 20px 0px 20px;
+    margin:10px;
+}
+
+.subtitle{
+    margin: 10px auto;
+
+
+    font-weight: bold;
+    color: #444;
+}
+
+.about_cell a {
+    color:#444;
+
+}
+
+.icon {
+    width:64px;
+    height: 64px;
+    margin:20px auto auto auto;
+}
+
+.interview_img {
+    background-image: url("../img/interview_icon.jpg");
+}
+
+.writing_img {
+    background-image: url("../img/writing_icon.jpg");
+}
+
+.design_img {
+    background-image: url("../img/design_icon.jpg");
+}
+
+.meeting_img {
+    background-image: url("../img/meeting_icon.jpg");
+}
+
+/*animation*/
+.animation {
+    visibility: hidden;
+}
+
+/*introduction*/
+
+#interview,
+#writing,
+#design,
+#meeting {
+    padding-bottom: 50px;
+    background-color: #ceffce;
+    background-size: cover;
+    border-top: solid 1px #17b0ea;
+    border-bottom: solid 1px #17b0ea;
+}
+
+#interview {
+    background-image: url('../img/writing.JPG');
+}
+
+#writing {
+    background-image: url('../img/writing.JPG');
+}
+
+#design{
+    background-image: url('../img/writing.JPG');
+}
+
+#meeting {
+    background-image: url('../img/meeting.JPG');
+    background-position: bottom;
+}
+
+.intro_title {
+    padding: 5px 135px 5px 135px;
+    color: #024; 
+    background-color: rgba(218, 248, 255, 0.7);
+    border-style: double;
+    border-color: white;
+    border-width: 5px;
+}
+
+.intro_sentence {
+    color: #024;
+    width: 50%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 20px 0px 40px 0px;
+    font-size: 140%;
+    background: rgba(230, 255, 210, 0.7);
+}
+
+.right {
+    margin-right: 5%;
+}
+
+.left {
+    margin-left: 5%;
+}
